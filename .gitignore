@@ -1,0 +1,59 @@
+# Create a proper .gitignore file
+@"
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment - MUST IGNORE THIS!
+smart/
+.venv/
+venv/
+ENV/
+env/
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Model Files (large files)
+*.pkl
+*.h5
+*.joblib
+
+# Data Files
+data/*.csv
+!data/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Evaluation
+evaluation_results.json
+evaluation_report.txt
+
+# Environment
+.env
+.env.local
+"@ | Out-File -FilePath .gitignore -Encoding UTF8 -NoNewline
