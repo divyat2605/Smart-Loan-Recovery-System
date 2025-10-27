@@ -1,8 +1,12 @@
 # Smart Loan Recovery System with Machine Learning
 
 A machine learning system that predicts loan default risk and assigns recovery strategies based on borrower profiles and payment behavior.
+![Smart Loan Recovery System](assets/SMARTLOANRECOVERYSYSTEM-1.jpg)
+
 
 ## 🎯 Features
+![System Features](assets/SMARTLOANRECOVERYSYSTEM-2.jpg)
+
 
 - **Risk Prediction**: Predicts probability of loan default
 - **Borrower Segmentation**: K-Means clustering to group borrowers
@@ -93,6 +97,8 @@ POST /api/train
   ]
 }
 ```
+![System Features](assets/SMARTLOANRECOVERYSYSTEM-3.jpg)
+
 
 ### 2. Predict Default Risk
 ```bash
