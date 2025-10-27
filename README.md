@@ -201,5 +201,3 @@ GET /api/logs
 ## 📝 License
 MIT License
 
-## 👨‍💻 Based On
-Article: "Smart Loan Recovery System with Machine Learning" by Aman Kharwal
